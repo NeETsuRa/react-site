@@ -4,7 +4,8 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <h2>Domov</h2>
+        <h1 className="MainHeader">OBDELAVA KOVIN TOMO RAVNJAK S.P.</h1>
+        <div>Photos</div>
       </div>
     );
   }
