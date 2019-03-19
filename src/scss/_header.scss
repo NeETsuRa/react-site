@@ -1,0 +1,30 @@
+li {
+  margin: 0px;
+  font-family: $Roboto;
+  font-size: $FontSizeMedium;
+}
+  
+.header {
+  padding: 0px;
+  margin: 0px;
+  li {
+    display: inline;
+    list-style-type: none;
+    padding: 1%;
+    a {
+      color: $collorBack;
+      text-decoration: none;
+      display: inline-block;
+    }
+  }
+}
+
+.active {
+  font-weight: bold;
+  border-bottom: 2px solid $collorBack;
+  border-radius: 3px;
+}
+
+a:hover {
+  font-weight: bold;
+}
