@@ -3,10 +3,14 @@
     font-weight: bold;
     border-bottom: 1px solid #000;
     width: fit-content;
+    padding-top: 10px;
+    margin-bottom: 3px;
 }
 .Name{
     font-family: $Roboto;
     display: inline-block;
+    font-weight: bold;
+    padding-right: 10px;
 }
 .Number{
     font-family: $Roboto;
@@ -18,4 +22,8 @@
 .Map{
     width: 50%;
     height: 300px;
+}
+
+p{
+    margin: 0px;
 }
