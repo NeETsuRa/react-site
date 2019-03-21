@@ -1,15 +1,21 @@
 .Contact-Title{
-
+    font-family: $Roboto;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    width: fit-content;
 }
 .Name{
-
+    font-family: $Roboto;
+    display: inline-block;
 }
 .Number{
-
+    font-family: $Roboto;
+    display: inline-block;
 }
 .Contact{
-
+    font-family: $Roboto;
 }
 .Map{
-    
+    width: 50%;
+    height: 300px;
 }
