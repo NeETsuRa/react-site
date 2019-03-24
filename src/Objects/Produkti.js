@@ -9,5 +9,4 @@ class Produkti extends Component {
     );
   }
 }
- 
 export default Produkti;
