@@ -22,7 +22,7 @@ class Kontakt extends Component {
         <div className="Contact-Title">Naslov</div>
         <div>
           <p className="Contact">Tomo Ravnjak s.p</p>
-          <p className="Contact">Brezje pri Oplotnica 32</p>
+          <p className="Contact">Brezje pri Oplotnici 32</p>
           <p className="Contact">2317 Oplotnica</p>
         </div>
         <div>
