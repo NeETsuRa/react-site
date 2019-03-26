@@ -11,8 +11,16 @@ class Stroji extends Component {
   render() {
     return (
       <div>
-        <ul>
-          <li><img src={WMW} className="mashinePhoto" alt="WMW" /></li>
+        <ul className="mashineList">
+          <li className="listItem">
+            <div className="dropdown">
+              <img src={WMW} className="mashinePhoto" alt="WMW" />
+              <div className="dropdown-content">
+                <img src={WMW} className="mashinePhoto" alt="WMW" />
+                <div className="desc">Text</div>
+              </div>
+            </div> 
+          </li>
           <li><img src={Kikinda} className="mashinePhoto" alt="Kikinda" /></li>
           <li><img src={Kikinda2} className="mashinePhoto" alt="Kikinda" /> </li>
           <li><img src={jung} className="mashinePhoto" alt="Jung" /></li>
