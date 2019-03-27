@@ -5,10 +5,10 @@ class Image extends Component {
     return (
       <div>
         <div className="dropdown">
-            <img src={this.props.img} className="mashinePhoto" alt={this.props.desc} />
+            <img src={this.props.img} className="mashinePhoto" alt="Photo" />
             <div className="dropdown-content">
-            <img src={this.props.img} className="mashinePhoto" alt="WMW" />
-            <div className="desc">Text</div>
+            <img src={this.props.img} className="mashinePhoto" alt="Photo" />
+            <div className="desc">{this.props.desc}</div>
             </div>
         </div> 
       </div>
