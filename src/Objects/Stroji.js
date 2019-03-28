@@ -13,21 +13,13 @@ class Stroji extends Component {
     return (
       <div>
         <ul className="mashineList">
-          <li className="listItem">
-            <div className="dropdown">
-              <img src={WMW} className="mashinePhoto" alt="WMW" />
-              <div className="dropdown-content">
-                <img src={WMW} className="mashinePhoto" alt="WMW" />
-                <div className="desc">Text</div>
-              </div>
-            </div> 
-          </li>
+          <li><Image img={WMW} desc="txt"/></li>
           <li><Image img={Kikinda} desc="txt"/></li>
-          <li><img src={Kikinda2} className="mashinePhoto" alt="Kikinda" /> </li>
-          <li><img src={jung} className="mashinePhoto" alt="Jung" /></li>
-          <li><img src={Peskalna} className="mashinePhoto" alt="Peskalna komora" /></li>
-          <li><img src={Prvomajska} className="mashinePhoto" alt="Prvomajska ALG-200" /></li>
-          <li><img src={Struženje} className="mashinePhoto" alt="Struženje" /></li>
+          <li><Image img={Kikinda2} desc="txt"/></li>
+          <li><Image img={jung} desc="txt"/></li>
+          <li><Image img={Peskalna} desc="txt"/></li>
+          <li><Image img={Prvomajska} desc="txt"/></li>
+          <li><Image img={Struženje} desc="txt"/></li>
         </ul>
       </div>
     );
