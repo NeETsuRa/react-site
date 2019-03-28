@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import image from "./Image";
+import Image from "./Image";
 import jung from "../Media/stroji/20180130_182220.jpg";
 import WMW from "../Media/stroji/20180825_144002.jpg";
 import Kikinda from "../Media/stroji/20180825_143950.jpg";
@@ -7,7 +7,7 @@ import Kikinda2 from "../Media/stroji/20180825_143918.jpg";
 import Peskalna from "../Media/stroji/20180825_143729.jpg";
 import Prvomajska from "../Media/stroji/20180825_143750.jpg";
 import Struženje from "../Media/stroji/20180825_143831.jpg";
- 
+
 class Stroji extends Component {
   render() {
     return (
@@ -22,7 +22,7 @@ class Stroji extends Component {
               </div>
             </div> 
           </li>
-          <li>sas<image img={Kikinda} desc="txt"/></li>
+          <li><Image img={Kikinda} desc="txt"/></li>
           <li><img src={Kikinda2} className="mashinePhoto" alt="Kikinda" /> </li>
           <li><img src={jung} className="mashinePhoto" alt="Jung" /></li>
           <li><img src={Peskalna} className="mashinePhoto" alt="Peskalna komora" /></li>
