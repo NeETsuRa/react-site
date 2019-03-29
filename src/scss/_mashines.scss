@@ -1,12 +1,13 @@
 .mashineList{
     list-style-type: none;
     text-decoration: none;
-    display: inline;
+    display: flex;
+    flex-direction: row;
     .listItem{
         width: fit-content;
     }
     .mashinePhoto{
-        width: 100px;
+        width: 100%;
     }
 }
 
