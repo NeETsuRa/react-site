@@ -17,49 +17,68 @@ class Stroji extends Component {
             <Image
               img={WMW}
               title="WMW"
-              desc={['something', 'second']}
+              desc={[
+                'Med konicami max premera Fi 200mm in do max dolžine 1000mm', 
+                'Notranje max premera Fi 100 mm in do max dolžine 100mm'
+              ]}
             />
           </li>
           <li>
             <Image 
               img={Kikinda} 
               title="Kikinda" 
-              desc={['something', 'second']} 
+              desc={[
+                'Med konicami max premera Fi 350 mm in do max dolžine 700 mm', 
+                'Notranje max premera Fi 300 mm in do max dolžine 300 mm'
+              ]} 
             />
           </li>
           <li>
             <Image 
               img={Kikinda2} 
               title="Kikinda" 
-              desc={['something', 'second']} 
+              desc={[
+                'ploskovno brušenje', 
+                '500x250'
+              ]} 
             />
           </li>
           <li>
             <Image 
               img={jung} 
               title="Jung" 
-              desc={['something', 'second']} 
+              desc={[
+                'ploskovno in profilno brušenje', 
+                '500x250'
+              ]} 
             />
           </li>
           <li>
             <Image 
               img={Peskalna} 
               title="Peskalna" 
-              desc={['something', 'second']} 
+              desc={[
+                'TESI peskanje kosov', 
+                'cca 400x400x800 mm'
+              ]} 
             />
           </li>
           <li>
             <Image 
               img={Prvomajska} 
-              title="Prvomajska" 
-              desc={['something', 'second']} 
+              title="Prvomajska ALG-200" 
+              desc={[
+                'Klasično rezkanje'
+              ]} 
             />
           </li>
           <li>
             <Image 
               img={Struženje} 
               title="Struženje" 
-              desc={['something', 'second']} 
+              desc={[
+                'fi 300'
+              ]} 
             />
           </li>
         </ul>
