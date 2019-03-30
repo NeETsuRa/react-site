@@ -13,17 +13,59 @@ class Stroji extends Component {
     return (
       <div>
         <ul className="mashineList">
-          <li><Image img={WMW} title="WMW" desc={['something', 'second']}/></li>
-          <li><Image img={Kikinda} title="Kikinda" desc={['something', 'second']}/></li>
-          <li><Image img={Kikinda2} title="Kikinda" desc={['something', 'second']}/></li>
-          <li><Image img={jung} title="Jung" desc={['something', 'second']}/></li>
-          <li><Image img={Peskalna} title="Peskalna" desc={['something', 'second']}/></li>
-          <li><Image img={Prvomajska} title="Prvomajska" desc={['something', 'second']}/></li>
-          <li><Image img={Struženje} title="Struženje" desc={['something', 'second']}/></li>
+          <li>
+            <Image
+              img={WMW}
+              title="WMW"
+              desc={['something', 'second']}
+            />
+          </li>
+          <li>
+            <Image 
+              img={Kikinda} 
+              title="Kikinda" 
+              desc={['something', 'second']} 
+            />
+          </li>
+          <li>
+            <Image 
+              img={Kikinda2} 
+              title="Kikinda" 
+              desc={['something', 'second']} 
+            />
+          </li>
+          <li>
+            <Image 
+              img={jung} 
+              title="Jung" 
+              desc={['something', 'second']} 
+            />
+          </li>
+          <li>
+            <Image 
+              img={Peskalna} 
+              title="Peskalna" 
+              desc={['something', 'second']} 
+            />
+          </li>
+          <li>
+            <Image 
+              img={Prvomajska} 
+              title="Prvomajska" 
+              desc={['something', 'second']} 
+            />
+          </li>
+          <li>
+            <Image 
+              img={Struženje} 
+              title="Struženje" 
+              desc={['something', 'second']} 
+            />
+          </li>
         </ul>
       </div>
     );
   }
 }
- 
+
 export default Stroji;
