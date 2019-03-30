@@ -13,7 +13,7 @@ class Stroji extends Component {
     return (
       <div>
         <ul className="mashineList">
-          <li><Image img={WMW} desc="txt"/></li>
+          <li><Image img={WMW} title="WMW" desc={['something', 'second']}/></li>
           <li><Image img={Kikinda} desc="txt"/></li>
           <li><Image img={Kikinda2} desc="txt"/></li>
           <li><Image img={jung} desc="txt"/></li>
