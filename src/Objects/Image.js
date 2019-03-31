@@ -5,7 +5,7 @@ class Image extends React.Component {
   listDesc = (desc) => {
     let content = []
     for (let i = 0; i < 2; i++) {
-      content.push(<p>{desc[i]}</p>)
+      content.push(<p className="imageDesc">{desc[i]}</p>)
     }
     return content
   }
