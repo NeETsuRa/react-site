@@ -3,9 +3,6 @@
     text-decoration: none;
     display: flex;
     flex-direction: row;
-    .listItem{
-        width: fit-content;
-    }
     .mashinepreshow{
       object-fit: scale-down;
       width: 100%;
@@ -18,13 +15,14 @@
     }
     li {
         margin: 0.5%;
+        .dropdown {
+            position: relative;
+            display: inline-block;
+          }
     }
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-  }
+
   
   .dropdown-content {
     align-items: flex-start;
