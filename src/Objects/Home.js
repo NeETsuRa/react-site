@@ -7,7 +7,7 @@ class Home extends Component {
         <div className="MainHeader">        
           <h1>OBDELAVA KOVIN TOMO RAVNJAK S.P.</h1>
         </div>
-        <div>Photos</div>
+        <div></div>
       </div>
     );
   }
