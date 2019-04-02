@@ -52,31 +52,43 @@ import prod47 from "../Media/produkti/IMG_20180810_172518.jpg";
 class Produkti extends Component {
   render() {
     return (
-      <div>
-        <ul className="productList">
-          <li>
-            <Image
-              img={prod}
-              title="Prod"
-              desc={[
-                'inf1', 
-                'Inf2'
-              ]}
-            />
-          </li>
-        </ul>
-        <ul className="productList">
-          <li>
-            <Image
-              img={prod2}
-              title="Prod"
-              desc={[
-                'inf1', 
-                'Inf2'
-              ]}
-            />
-          </li>
-        </ul>
+      <div className="productGroups">
+        <div className="productGroup">
+          <h1 className="productGroupTitle">Okroglo Brušenje Notranje</h1>
+          <ul className="productList">
+            <li>
+              <Image
+                img={prod}
+                title="Prod"
+                desc={[
+                  'inf1', 
+                  'Inf2'
+                ]}
+              />
+            </li>
+          </ul>
+        </div>
+        <div className="productGroup">
+          <h1 className="productGroupTitle">Okroglo Brušenje Zunanje</h1>
+        </div>
+        <div className="productGroup">
+          <h1 className="productGroupTitle">Ploskovno Brušenje</h1>
+        </div>
+        <div className="productGroup">
+          <h1 className="productGroupTitle">Struženje</h1>
+        </div>
+        <div className="productGroup">
+          <h1 className="productGroupTitle">Poliranje</h1>
+        </div>
+        <div className="productGroup">
+          <h1 className="productGroupTitle">Rezkanje</h1>
+        </div>
+        <div className="productGroup">
+          <h1 className="productGroupTitle">Peskanje</h1>
+        </div>
+        <div className="productGroup">
+          <h1 className="productGroupTitle">Svetovanje</h1>
+        </div>
       </div>
     );
   }
