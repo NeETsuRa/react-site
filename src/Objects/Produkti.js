@@ -65,6 +65,18 @@ class Produkti extends Component {
             />
           </li>
         </ul>
+        <ul className="productList">
+          <li>
+            <Image
+              img={prod2}
+              title="Prod"
+              desc={[
+                'inf1', 
+                'Inf2'
+              ]}
+            />
+          </li>
+        </ul>
       </div>
     );
   }
