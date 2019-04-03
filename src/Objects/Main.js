@@ -9,12 +9,14 @@ import Stroji from "./Stroji";
 import Produkti from "./Produkti";
 import Kontakt from "./Kontakt";
 import Cena from "./Cena";
- 
+import logo from "../Media/Logo.svg";
+
 class Main extends Component {
     render() {
         return (
             <HashRouter>
             <div>
+              <div> <img src={logo} alt="Logo" /></div>
               <ul className="header">
                 <li><NavLink exact to="/">Domov</NavLink></li>
                 <li><NavLink to="/stroji">Stroji</NavLink></li>

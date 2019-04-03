@@ -1,5 +1,5 @@
 import React, { Component } from "react";
- 
+
 class Home extends Component {
   render() {
     return (
@@ -7,7 +7,6 @@ class Home extends Component {
         <div className="MainHeader">        
           <h1>OBDELAVA KOVIN TOMO RAVNJAK S.P.</h1>
         </div>
-        <div></div>
       </div>
     );
   }
