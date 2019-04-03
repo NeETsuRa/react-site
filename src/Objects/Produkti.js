@@ -56,16 +56,7 @@ class Produkti extends Component {
         <div className="productGroup">
           <h1 className="productGroupTitle">Okroglo Brušenje Notranje</h1>
           <ul className="productList">
-            <li>
-              <Image
-                img={prod}
-                title="Prod"
-                desc={[
-                  'inf1', 
-                  'Inf2'
-                ]}
-              />
-            </li>
+            <li><img src={prod} className="productPhoto" alt="Prod" /></li>
           </ul>
         </div>
         <div className="productGroup">
