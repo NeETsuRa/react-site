@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Image from "./Image";
 import prod from "../Media/produkti/20180203_100307.jpg";
 import prod1 from "../Media/produkti/20180203_100315.jpg";
 import prod2 from "../Media/produkti/20180203_103129.jpg";
@@ -99,6 +98,54 @@ class Produkti extends Component {
           <h1 className="productGroupTitle">Svetovanje</h1>
           <ul className="productList">
             <li><img src={prod} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod1} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod2} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod3} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod4} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod5} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod6} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod7} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod8} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod9} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod10} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod11} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod12} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod13} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod14} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod15} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod16} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod17} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod18} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod19} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod20} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod21} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod22} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod23} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod24} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod25} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod26} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod27} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod28} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod29} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod30} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod31} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod32} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod33} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod34} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod35} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod36} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod37} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod38} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod39} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod40} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod41} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod42} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod43} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod44} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod45} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod46} className="productPhoto" alt="Prod" /></li>
+            <li><img src={prod47} className="productPhoto" alt="Prod" /></li>
+
           </ul>
         </div>
       </div>
