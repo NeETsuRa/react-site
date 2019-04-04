@@ -55,43 +55,43 @@ class Produkti extends Component {
         <div className="productGroup">
           <h1 className="productGroupTitle">Okroglo Brušenje Notranje</h1>
           <ul className="productList">
-            <li><img src={prod} className="productPhoto" alt="Prod" /></li>
+
           </ul>
         </div>
         <div className="productGroup">
           <h1 className="productGroupTitle">Okroglo Brušenje Zunanje</h1>
           <ul className="productList">
-            <li><img src={prod} className="productPhoto" alt="Prod" /></li>
+
           </ul>
         </div>
         <div className="productGroup">
           <h1 className="productGroupTitle">Ploskovno Brušenje</h1>
           <ul className="productList">
-            <li><img src={prod} className="productPhoto" alt="Prod" /></li>
+
           </ul>
         </div>
         <div className="productGroup">
           <h1 className="productGroupTitle">Struženje</h1>
           <ul className="productList">
-            <li><img src={prod} className="productPhoto" alt="Prod" /></li>
+
           </ul>
         </div>
         <div className="productGroup">
           <h1 className="productGroupTitle">Poliranje</h1>
           <ul className="productList">
-            <li><img src={prod} className="productPhoto" alt="Prod" /></li>
+
           </ul>
         </div>
         <div className="productGroup">
           <h1 className="productGroupTitle">Rezkanje</h1>
           <ul className="productList">
-            <li><img src={prod} className="productPhoto" alt="Prod" /></li>
+
           </ul>
         </div>
         <div className="productGroup">
           <h1 className="productGroupTitle">Peskanje</h1>
           <ul className="productList">
-            <li><img src={prod} className="productPhoto" alt="Prod" /></li>
+
           </ul>
         </div>
         <div className="productGroup">
