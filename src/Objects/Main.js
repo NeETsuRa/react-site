@@ -16,7 +16,7 @@ class Main extends Component {
         return (
             <HashRouter>
             <div>
-              <div> <img src={logo} alt="Logo" /></div>
+              <div> <img className="logo" src={logo} alt="Logo" /></div>
               <ul className="header">
                 <li><NavLink exact to="/">Domov</NavLink></li>
                 <li><NavLink to="/stroji">Stroji</NavLink></li>
