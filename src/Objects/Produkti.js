@@ -53,49 +53,20 @@ class Produkti extends Component {
     return (
       <div className="productGroups">
         <div className="productGroup">
-          <h1 className="productGroupTitle">Okroglo Brušenje Notranje</h1>
-          <ul className="productList">
-
+        <h1 className="productGroupTitle">Ponudba:</h1>
+          <ul>
+            <p className="productGroupTitle">Okroglo Brušenje Notranje</p>
+            <p className="productGroupTitle">Okroglo Brušenje Zunanje</p>
+            <p className="productGroupTitle">Ploskovno Brušenje</p>
+            <p className="productGroupTitle">Struženje</p>
+            <p className="productGroupTitle">Poliranje</p>
+            <p className="productGroupTitle">Rezkanje</p>
+            <p className="productGroupTitle">Peskanje</p>
+            <p className="productGroupTitle">Svetovanje</p>
           </ul>
         </div>
         <div className="productGroup">
-          <h1 className="productGroupTitle">Okroglo Brušenje Zunanje</h1>
-          <ul className="productList">
-
-          </ul>
-        </div>
-        <div className="productGroup">
-          <h1 className="productGroupTitle">Ploskovno Brušenje</h1>
-          <ul className="productList">
-
-          </ul>
-        </div>
-        <div className="productGroup">
-          <h1 className="productGroupTitle">Struženje</h1>
-          <ul className="productList">
-
-          </ul>
-        </div>
-        <div className="productGroup">
-          <h1 className="productGroupTitle">Poliranje</h1>
-          <ul className="productList">
-
-          </ul>
-        </div>
-        <div className="productGroup">
-          <h1 className="productGroupTitle">Rezkanje</h1>
-          <ul className="productList">
-
-          </ul>
-        </div>
-        <div className="productGroup">
-          <h1 className="productGroupTitle">Peskanje</h1>
-          <ul className="productList">
-
-          </ul>
-        </div>
-        <div className="productGroup">
-          <h1 className="productGroupTitle">Svetovanje</h1>
+        <h1 className="productGroupTitle">Produkti:</h1>
           <ul className="productList">
             <li><img src={prod} className="productPhoto" alt="Prod" /></li>
             <li><img src={prod1} className="productPhoto" alt="Prod" /></li>
@@ -145,7 +116,6 @@ class Produkti extends Component {
             <li><img src={prod45} className="productPhoto" alt="Prod" /></li>
             <li><img src={prod46} className="productPhoto" alt="Prod" /></li>
             <li><img src={prod47} className="productPhoto" alt="Prod" /></li>
-
           </ul>
         </div>
       </div>
