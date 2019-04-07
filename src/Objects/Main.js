@@ -29,7 +29,7 @@ class Main extends Component {
                 <Route path="/kontakt" component={Kontakt}/>
               </div>
               <div className="footer">
-                <p className="Contact">Tomo Ravnjak s.p,Brezje pri Oplotnici 32, 2317 Oplotnica</p>
+                <p className="Contact">Tomo Ravnjak s.p, Brezje pri Oplotnici 32, 2317 Oplotnica</p>
                 <p className="Number Mail">tomo.ravnjak.s.p@gmail.com</p>
               </div>
             </div>
