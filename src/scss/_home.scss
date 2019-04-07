@@ -1,5 +1,9 @@
 .Home {
     font-family: $Roboto;
+    .productGroupTitle{
+        font-size: $FontSizeMedium;
+        text-align: center;
+    }
     .MainHeader{
         display:flex;
         justify-content:center;

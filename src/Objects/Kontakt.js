@@ -4,7 +4,7 @@ class Kontakt extends Component {
   render() {
     return (
       <div>
-        <div className="Contact-Title">Kontaktni podatki</div>
+        <div className="Contact-Title">Kontaktni podatki:</div>
         <div>
           <div>
             <p className="Name">Tomo R.</p>
@@ -19,7 +19,7 @@ class Kontakt extends Component {
             <p className="Number Mail">tomo.ravnjak.s.p@gmail.com</p>
           </div>
         </div>
-        <div className="Contact-Title">Naslov</div>
+        <div className="Contact-Title">Naslov:</div>
         <div>
           <p className="Contact">Tomo Ravnjak s.p</p>
           <p className="Contact">Brezje pri Oplotnici 32</p>
