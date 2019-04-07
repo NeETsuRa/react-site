@@ -15,7 +15,7 @@ class Kontakt extends Component {
             <p className="Number">041/809-070</p>
           </div>
           <div>
-            <p className="Name">Mail</p>
+            <p className="Name">E-Mail</p>
             <p className="Number Mail">tomo.ravnjak.s.p@gmail.com</p>
           </div>
         </div>
