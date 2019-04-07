@@ -8,7 +8,6 @@ import Home from "./Home";
 import Stroji from "./Stroji";
 import Produkti from "./Produkti";
 import Kontakt from "./Kontakt";
-//import Cena from "./Cena";
 import logo from "../Media/Logo.svg";
 
 class Main extends Component {
@@ -21,14 +20,12 @@ class Main extends Component {
                 <li><NavLink exact to="/">Domov</NavLink></li>
                 <li><NavLink to="/stroji">Strojni Park</NavLink></li>
                 <li><NavLink to="/produkti">Galerija</NavLink></li>
-                {/*<li><NavLink to="/cena">Cena</NavLink></li>*/}
                 <li><NavLink to="/kontakt">Kontakt</NavLink></li>
               </ul>
               <div className="content">
                 <Route exact path="/" component={Home}/>
                 <Route path="/stroji" component={Stroji}/>
                 <Route path="/produkti" component={Produkti}/>
-                {/*<Route path="/cena" component={Cena}/>*/}
                 <Route path="/kontakt" component={Kontakt}/>
               </div>
               <div className="footer">
