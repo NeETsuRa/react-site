@@ -19,6 +19,15 @@ li {
   }
 }
 
+.footer{
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  height: 80px;
+  width: 90%;
+  font-weight: 600;
+}
+
 .content{
   padding-bottom: 80px;
 }
