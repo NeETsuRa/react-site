@@ -1,4 +1,5 @@
-
+# react-site
+The site is an personal site. Site is created with React with React ruter.
 
 ## Available React Scripts
 ### `npm start`
